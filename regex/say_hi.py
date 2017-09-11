@@ -4,26 +4,21 @@
 import re
 
 
-# Find HackerRank
-# https://www.hackerrank.com/challenges/find-hackerrank/problem
-def hackerrank_count(string):
-    # Print 0 if the conversation starts and ends with hackerrank
-    # Print 1 if the conversation starts with hackerrank
-    # Print 2 if the conversation ends with hackerrank
-    # Print -1 if none of the above.
-    if bool(re.search(r'^hackerrank$', string)):
-        print(0)
-    elif bool(re.search(r'^hackerrank', string)):
-        print(1)
-    elif bool(re.search(r'hackerrank$', string)):
-        print(2)
-    else:
-        print(-1)
+# Saying Hi
+# https://www.hackerrank.com/challenges/saying-hi/problem
+def say_hi(string):
+    # The first character must be the letter H or h
+    # The second character must be the letter I or i
+    # The third character must be a single space (i.e. \s)
+    # The fourth character must NOT be the letter D or d
+    match = re.match(r'^[Hh][Ii]\s[^Dd]', string)
+    if bool(match):
+        print(string)
 
 
 if __name__ == '__main__':
     n = int(input())
     while n > 0:
         string = input()
-        hackerrank_count(string)
+        say_hi(string)
         n -= 1
