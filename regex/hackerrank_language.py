@@ -4,21 +4,18 @@
 import re
 
 
-# Saying Hi
-# https://www.hackerrank.com/challenges/saying-hi/problem
-def say_hi(string):
-    # The first character must be the letter H or h
-    # The second character must be the letter I or i
-    # The third character must be a single space (i.e. \s)
-    # The fourth character must NOT be the letter D or d
-    match = re.match(r'^[Hh][Ii]\s[^Dd]', string)
-    if bool(match):
-        print(string)
+# HackerRank Language
+# https://www.hackerrank.com/challenges/hackerrank-language/problem
+def hackerrank_language(language):
+    string = r':C:CPP:JAVA:PYTHON:PERL:PHP:RUBY:CSHARP:HASKELL:CLOJURE:BASH:SCALA:ERLANG:CLISP:LUA:BRAINFUCK:JAVASCRIPT:GO:D:OCAML:R:PASCAL:SBCL:DART:GROOVY:OBJECTIVEC:'
+    match = re.search(r':{}:'.format(language), string)
+    result = 'VALID' if bool(match) else 'INVALID'
+    print(result)
 
 
 if __name__ == '__main__':
     n = int(input())
     while n > 0:
-        string = input()
-        say_hi(string)
+        _, language = input().split()
+        hackerrank_language(language)
         n -= 1
