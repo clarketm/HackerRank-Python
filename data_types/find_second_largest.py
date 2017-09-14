@@ -17,6 +17,6 @@ def find_second_max(array):
 
 if __name__ == '__main__':
     n = int(input())
-    array = map(int, input().split())
-    second_max = find_second_max(list(array))
+    array = list(map(int, input().split()))
+    second_max = find_second_max(array)
     print(second_max)
