@@ -9,8 +9,8 @@ if __name__ == '__main__':
     student_average_map = {}
 
     for _ in range(N):
-        student, grades = input().split(' ', 1)
-        grades = list(map(float, grades.split()))
+        student, *grades = input().split()
+        grades = list(map(float, grades))
         student_average_map[student] = sum(grades) / len(grades)
 
     print("{0:.2f}".format(student_average_map[input()], 2))
