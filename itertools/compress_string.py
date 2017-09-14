@@ -4,6 +4,9 @@
 # Compress the String
 # https://www.hackerrank.com/challenges/compress-the-string/problem
 
+from itertools import groupby
+
+
 def get_char_count(string):
     index = 0
     while index < len(string):
@@ -15,6 +18,15 @@ def get_char_count(string):
         print("({}, {})".format(count, char), end=' ')
 
 
+def get_char_count_using_groupby(string):
+    for char, group in groupby(string):
+        print("({}, {})".format(len(list(group)), char), end=' ')
+
+    # USING LIST COMPREHENSION
+    # print(*[(len(list(group)), int(char)) for char, group in groupby(string)])
+
+
 if __name__ == '__main__':
     string = input()
     get_char_count(string)
+    # get_char_count_using_groupby(string)
