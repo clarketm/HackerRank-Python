@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# Collections.namedtuple()
+# https://www.hackerrank.com/challenges/py-collections-namedtuple/problem
+
 from collections import namedtuple
 
 if __name__ == '__main__':
