@@ -15,11 +15,10 @@ if __name__ == '__main__':
         N, *items = map(int, input().split())
         L.append(items)
 
-    # Using `list comprehension`
-    # maximums = [max(item) for item in L]
+    # Using `reduce`
+    S = max(reduce(lambda x, y: x + y ** 2, l, 0) % M for l in product(*L))
 
-    # Using `product`
-    maximums = max(product(*L))
+    # Using `map` and `sum`
+    # S = max(map(lambda x: sum(i ** 2 for i in x) % M, product(*L)))
 
-    S = reduce(lambda x, y: x + y ** 2, maximums) % M
     print(S)
