@@ -4,6 +4,21 @@
 # https://www.hackerrank.com/challenges/word-order/problem
 
 
+# Using `Counter` and `OrderedDict`
+# from collections import Counter, OrderedDict
+#
+# class OrderedCounter(Counter, OrderedDict):
+#     pass
+#
+# if __name__ == '__main__':
+#     n = int(input())
+#
+#     words = OrderedCounter(input() for word in range(n))
+#     print(len(words))
+#     print(*words.values())
+
+
+# Using `OrderedDict`
 from collections import OrderedDict
 
 if __name__ == '__main__':
