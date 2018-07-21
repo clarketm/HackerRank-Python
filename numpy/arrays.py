@@ -11,6 +11,6 @@ def arrays(arr):
 
 
 if __name__ == '__main__':
-    arr = input().strip().split(' ')
+    arr = input().split()
     result = arrays(arr)
     print(result)
