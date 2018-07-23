@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Zeroes and Ones
-# https://www.hackerrank.com/challenges/np-zeros-and-ones/problem
+# Eye and Identity
+# https://www.hackerrank.com/challenges/np-eye-and-identity/problem
 
 import numpy
 
