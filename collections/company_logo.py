@@ -3,13 +3,11 @@
 # Company Logo
 # https://www.hackerrank.com/challenges/most-commons/problem
 
-
 from collections import Counter
 
 # def sort_comparator(item):
 #     letter, count = item
 #     return -count, letter
-
 
 if __name__ == "__main__":
     s = input().strip()

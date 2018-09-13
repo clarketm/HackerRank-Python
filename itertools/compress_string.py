@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # Compress the String
 # https://www.hackerrank.com/challenges/compress-the-string/problem
 

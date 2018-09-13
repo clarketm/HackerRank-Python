@@ -3,7 +3,6 @@
 # Set .add()
 # https://www.hackerrank.com/challenges/py-set-add/problem
 
-
 if __name__ == '__main__':
     N = int(input())
 

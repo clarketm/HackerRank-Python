@@ -4,7 +4,8 @@
 # https://www.hackerrank.com/challenges/map-and-lambda-expression/problem
 
 
-def cube(x): return x ** 3
+def cube(x):
+    return x**3
 
 
 def fibonacci(n):
@@ -26,7 +27,6 @@ def fibonacci(n):
 #             seq.append(seq[i - 2] + seq[i - 1])
 
 #     return list(map(cube, seq))
-
 
 if __name__ == '__main__':
     n = int(input())

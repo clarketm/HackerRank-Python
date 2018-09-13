@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # Find the Second Largest Number
 # https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
 

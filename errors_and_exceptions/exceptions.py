@@ -3,7 +3,6 @@
 # Exceptions
 # https://www.hackerrank.com/challenges/exceptions/problem
 
-
 if __name__ == '__main__':
     T = int(input())
 

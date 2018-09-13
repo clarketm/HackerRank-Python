@@ -3,7 +3,6 @@
 # Alphabet Rangoli
 # https://www.hackerrank.com/challenges/alphabet-rangoli/problem
 
-
 # Using a `terse` approach
 # def print_rangoli(size):
 #     import string

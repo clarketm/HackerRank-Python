@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # Finding the percentage
 # https://www.hackerrank.com/challenges/finding-the-percentage/problem
 

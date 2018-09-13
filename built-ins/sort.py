@@ -3,7 +3,6 @@
 # Sort Data
 # https://www.hackerrank.com/challenges/python-sort-sort/problem
 
-
 if __name__ == "__main__":
     n, m = input().strip().split(' ')
     n, m = [int(n), int(m)]

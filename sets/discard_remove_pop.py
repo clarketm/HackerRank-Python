@@ -3,7 +3,6 @@
 # Set .discard(), .remove() & .pop()
 # https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem
 
-
 if __name__ == '__main__':
     n = int(input())
     s = set(map(int, input().split()))

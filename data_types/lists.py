@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-
 # Lists
 # https://www.hackerrank.com/challenges/python-lists/problem
+
 
 def main(N):
     list = []

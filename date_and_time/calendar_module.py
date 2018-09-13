@@ -3,7 +3,6 @@
 # Calendar Module
 # https://www.hackerrank.com/challenges/calendar-module/problem
 
-
 import calendar
 
 if __name__ == '__main__':

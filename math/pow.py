@@ -3,7 +3,6 @@
 # Power - Mod Power
 # https://www.hackerrank.com/challenges/python-power-mod-power/problem
 
-
 if __name__ == '__main__':
     a = int(input())
     b = int(input())

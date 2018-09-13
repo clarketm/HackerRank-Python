@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # collections.Counter()
 # https://www.hackerrank.com/challenges/collections-counter/problem
 

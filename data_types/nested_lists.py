@@ -2,10 +2,8 @@
 
 # from operator import itemgetter
 
-
 # Nested Lists
 # https://www.hackerrank.com/challenges/nested-list/problem
-
 
 # Globals
 student_grade_map = []

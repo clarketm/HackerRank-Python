@@ -27,7 +27,7 @@ class Points(object):
         return Points(x, y, z)
 
     def absolute(self):
-        return pow((self.x ** 2 + self.y ** 2 + self.z ** 2), 0.5)
+        return pow((self.x**2 + self.y**2 + self.z**2), 0.5)
 
 
 if __name__ == '__main__':

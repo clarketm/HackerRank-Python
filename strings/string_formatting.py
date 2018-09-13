@@ -12,8 +12,7 @@ def print_formatted(number):
         # print(f'{n:{width}d} {n:{width}o} {n:{width}X} {n:{width}b}')
 
         # Using the string `format` method
-        print('{number:{width}d} {number:{width}o} {number:{width}X} {number:{width}b}'
-              .format(number=n, width=width))
+        print('{number:{width}d} {number:{width}o} {number:{width}X} {number:{width}b}'.format(number=n, width=width))
 
 
 if __name__ == '__main__':

@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # Classes: Dealing with Complex Numbers
 # https://www.hackerrank.com/challenges/class-1-dealing-with-complex-numbers/problem
 
@@ -29,7 +28,7 @@ class Complex(object):
         return Complex(_complex.real, _complex.imag)
 
     def mod(self):
-        _complex = complex(math.sqrt(self.real ** 2 + self.imaginary ** 2))
+        _complex = complex(math.sqrt(self.real**2 + self.imaginary**2))
         return Complex(_complex.real, _complex.imag)
 
     def __str__(self):

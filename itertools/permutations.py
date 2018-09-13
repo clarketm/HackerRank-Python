@@ -3,7 +3,6 @@
 # itertools.permutations()
 # https://www.hackerrank.com/challenges/itertools-permutations/problem
 
-
 from itertools import permutations
 
 if __name__ == '__main__':

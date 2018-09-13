@@ -3,7 +3,6 @@
 # The Captain's Room
 # https://www.hackerrank.com/challenges/py-the-captains-room/problem
 
-
 if __name__ == '__main__':
     K = int(input())
     room_list = [int(item) for item in input().split()]

@@ -3,7 +3,6 @@
 # Merge the Tools!
 # https://www.hackerrank.com/challenges/merge-the-tools/problem
 
-
 import textwrap
 from collections import OrderedDict
 

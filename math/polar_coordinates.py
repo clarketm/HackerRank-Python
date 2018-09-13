@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # Polar Coordinates
 # https://www.hackerrank.com/challenges/polar-coordinates/problem
 

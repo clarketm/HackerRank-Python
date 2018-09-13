@@ -3,7 +3,6 @@
 # Piling Up!
 # https://www.hackerrank.com/challenges/piling-up/problem
 
-
 # Using `<` and `ending` terminating condition
 # def is_stackable(quantity, cubes):
 #     prev = None

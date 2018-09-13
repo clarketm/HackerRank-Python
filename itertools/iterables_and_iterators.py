@@ -3,7 +3,6 @@
 # Iterables and Iterators
 # https://www.hackerrank.com/challenges/iterables-and-iterators/problem
 
-
 from itertools import combinations
 
 if __name__ == '__main__':

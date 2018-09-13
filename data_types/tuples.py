@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # Tuples
 # https://www.hackerrank.com/challenges/python-tuples/problem
 

@@ -3,7 +3,6 @@
 # The Minion Game
 # https://www.hackerrank.com/challenges/the-minion-game/problem
 
-
 # Using a complex, non-optimized algorithm
 # - allows for the removal of duplicates
 # def minion_game(string):

@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
-
 # itertools.combinations()
 # https://www.hackerrank.com/challenges/itertools-combinations/problem
-
 
 from itertools import combinations
 

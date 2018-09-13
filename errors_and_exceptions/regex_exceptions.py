@@ -3,7 +3,6 @@
 # Incorrect Regex
 # https://www.hackerrank.com/challenges/incorrect-regex/problem
 
-
 import re
 
 if __name__ == '__main__':

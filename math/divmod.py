@@ -3,7 +3,6 @@
 # Mod Divmod
 # https://www.hackerrank.com/challenges/python-mod-divmod/problem
 
-
 if __name__ == '__main__':
     numerator = int(input())
     denominator = int(input())

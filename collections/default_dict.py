@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # DefaultDict Tutorial
 # https://www.hackerrank.com/challenges/defaultdict-tutorial/problem
 

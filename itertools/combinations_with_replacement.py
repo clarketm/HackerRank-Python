@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
-
 # itertools.combinations_with_replacement()
 # https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem
-
 
 from itertools import combinations_with_replacement
 

@@ -3,7 +3,6 @@
 # Word Order
 # https://www.hackerrank.com/challenges/word-order/problem
 
-
 # Using `Counter` and `OrderedDict`
 # from collections import Counter, OrderedDict
 #
@@ -16,7 +15,6 @@
 #     words = OrderedCounter(input() for word in range(n))
 #     print(len(words))
 #     print(*words.values())
-
 
 # Using `OrderedDict`
 from collections import OrderedDict

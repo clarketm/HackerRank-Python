@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # List Comprehensions
 # https://www.hackerrank.com/challenges/list-comprehensions/problem
 

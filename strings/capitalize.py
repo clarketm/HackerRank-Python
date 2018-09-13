@@ -3,7 +3,6 @@
 # Capitalize!
 # https://www.hackerrank.com/challenges/capitalize/problem
 
-
 # Using `list comprehension` and `capitalize` method
 # def capitalize(string):
 #     new_word = []
@@ -13,7 +12,6 @@
 #
 #     return ' '.join(new_word)
 
-
 # Using `list comprehension` with `upper` method
 # def capitalize(string):
 #     new_word = []
@@ -22,7 +20,6 @@
 #         new_word.append(word[:1].upper() + word[1:])
 #
 #     return ' '.join(new_word)
-
 
 # Using `list comprehension` and `capitalize` method
 # def capitalize(string):
@@ -38,7 +35,6 @@ def capitalize(string):
 # DOESN'T WORK FOR ALL TEST CASES
 # def capitalize(string):
 #     return string.title()
-
 
 if __name__ == '__main__':
     string = input()

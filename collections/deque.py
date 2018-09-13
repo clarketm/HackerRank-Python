@@ -3,7 +3,6 @@
 # Collections.deque()
 # https://www.hackerrank.com/challenges/py-collections-deque/problem
 
-
 from collections import deque
 
 if __name__ == '__main__':

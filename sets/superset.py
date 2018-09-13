@@ -3,7 +3,6 @@
 # Check Strict Superset
 # https://www.hackerrank.com/challenges/py-check-strict-superset/problem
 
-
 # Using `iterative` approach
 # def is_strict_superset(A, n):
 #     for _ in range(n):
@@ -11,6 +10,7 @@
 #         if not A.issuperset(s):
 #             return False
 #     return True
+
 
 # Using `functional` approach
 def is_strict_superset(A, n):
