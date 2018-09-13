@@ -4,8 +4,8 @@
 # https://www.hackerrank.com/challenges/merge-the-tools/problem
 
 
-from collections import OrderedDict
 import textwrap
+from collections import OrderedDict
 
 
 def merge_the_tools(s, k):

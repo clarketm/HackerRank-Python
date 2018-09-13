@@ -10,4 +10,3 @@ if __name__ == '__main__':
     A = numpy.array([input().split() for _ in range(N)], dtype=int)
     B = numpy.array([input().split() for _ in range(N)], dtype=int)
     print(numpy.dot(A, B))
-

@@ -10,4 +10,3 @@ if __name__ == '__main__':
     B = numpy.array(input().split(), dtype=int)
     print(numpy.inner(A, B))
     print(numpy.outer(A, B))
-

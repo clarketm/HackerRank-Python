@@ -3,7 +3,8 @@
 # Map and Lambda Function
 # https://www.hackerrank.com/challenges/map-and-lambda-expression/problem
 
-cube = lambda x: x ** 3
+
+def cube(x): return x ** 3
 
 
 def fibonacci(n):
