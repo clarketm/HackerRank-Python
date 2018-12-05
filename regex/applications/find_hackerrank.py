@@ -10,17 +10,17 @@ def hackerrank_count(string):
     # Print 1 if the conversation starts with hackerrank
     # Print 2 if the conversation ends with hackerrank
     # Print -1 if none of the above.
-    if bool(re.search(r'^hackerrank$', string)):
+    if bool(re.search(r"^hackerrank$", string)):
         print(0)
-    elif bool(re.search(r'^hackerrank', string)):
+    elif bool(re.search(r"^hackerrank", string)):
         print(1)
-    elif bool(re.search(r'hackerrank$', string)):
+    elif bool(re.search(r"hackerrank$", string)):
         print(2)
     else:
         print(-1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     while n > 0:
         string = input()

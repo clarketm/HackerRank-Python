@@ -11,10 +11,10 @@ def mutate_string(string, position, character):
     # return ''.join(s_list)
 
     # Using slices
-    return string[:position] + c + string[position + 1:]
+    return string[:position] + c + string[position + 1 :]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = input()
     i, c = input().split()
     s_new = mutate_string(s, int(i), c)

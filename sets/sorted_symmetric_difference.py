@@ -3,7 +3,7 @@
 # Symmetric Difference
 # https://www.hackerrank.com/challenges/symmetric-difference/problem
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     M = int(input())
     s1 = set(map(int, input().split()))
 
@@ -17,4 +17,4 @@ if __name__ == '__main__':
     # Using `symmetric_difference`
     diff = s1.symmetric_difference(s2)
 
-    print(*sorted(diff), sep='\n')
+    print(*sorted(diff), sep="\n")

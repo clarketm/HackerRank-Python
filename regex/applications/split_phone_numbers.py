@@ -12,11 +12,15 @@ def split_phone_number(phone_number):
     # Group 3 = [Number]
     # There might either be a '-' ( ascii value 45), or a ' ' ( space, ascii value 32) between the segments
     # Where the country and local area codes can have 1-3 numerals each and the number section can have 4-10 numerals each.
-    match = re.match(r'(\d{1,3})[- ](\d{1,3})[- ](\d{4,10})', phone_number)
-    print("CountryCode={},LocalAreaCode={},Number={}".format(match.group(1), match.group(2), match.group(3)))
+    match = re.match(r"(\d{1,3})[- ](\d{1,3})[- ](\d{4,10})", phone_number)
+    print(
+        "CountryCode={},LocalAreaCode={},Number={}".format(
+            match.group(1), match.group(2), match.group(3)
+        )
+    )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     while n > 0:
         phone_number = input()

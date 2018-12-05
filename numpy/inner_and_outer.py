@@ -5,7 +5,7 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     A = numpy.array(input().split(), dtype=int)
     B = numpy.array(input().split(), dtype=int)
     print(numpy.inner(A, B))

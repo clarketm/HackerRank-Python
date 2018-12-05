@@ -19,7 +19,7 @@ def calculate_revenue(stock, orders):
     print(revenue)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     X = int(input())
     stock = list(map(int, input().split()))
 

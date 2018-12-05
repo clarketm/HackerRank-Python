@@ -27,7 +27,10 @@ def match_same_text_repeatedly(string):
     # 18th character: should be same as 8th character.
     # 19th character: should be same as 9th character.
     # 20th character: should be same as 10th character.
-    match = re.match(r'^([a-z])(\w)(\s)(\W)(\d)(\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\S)\1\2\3\4\5\6\7\8\9\10$', string)
+    match = re.match(
+        r"^([a-z])(\w)(\s)(\W)(\d)(\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\S)\1\2\3\4\5\6\7\8\9\10$",
+        string,
+    )
     print(str(bool(match)).lower())
 
 
@@ -36,7 +39,7 @@ def match_same_text_repeatedly(string):
 def backreferences_to_failed_groups(string):
     # S consists of 8 digits.
     # S may have `-` separator such that string S gets divided in 4 parts, with each part having exactly 2 digits. (Eg. 12-34-56-78)
-    match = re.match(r'^\d{2}(-?)\d{2}\1\d{2}\1\d{2}$', string)
+    match = re.match(r"^\d{2}(-?)\d{2}\1\d{2}\1\d{2}$", string)
     print(str(bool(match)).lower())
 
 
@@ -47,7 +50,7 @@ def branch_reset_groups(string):
     # S must have "---", "-", "." or ":" separator such that string S gets divided in 4parts, with each part having exactly 2 digits.
     # S string must have exactly one kind of separator.
     # Separators must have integers on both sides.
-    match = re.match(r'^\d{2}((?:---)|(?:-)|(?:.)|(?::))\d{2}\1\d{2}\1\d{2}$', string)
+    match = re.match(r"^\d{2}((?:---)|(?:-)|(?:.)|(?::))\d{2}\1\d{2}\1\d{2}$", string)
     print(str(bool(match)).lower())
 
 
@@ -57,11 +60,11 @@ def forward_references(string):
     # S consists of `tic` or `tac`.
     # `tic` should not be immediate neighbour of itself.
     # The first `tic` must occur only when `tac` has appeared at least twice(2) before.
-    match = re.match(r'^tac(tactic|tac)+$', string)
+    match = re.match(r"^tac(tactic|tac)+$", string)
     print(str(bool(match)).lower())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     string = input()
     # match_same_text_repeatedly(string)
     # backreferences_to_failed_groups(string)

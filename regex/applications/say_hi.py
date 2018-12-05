@@ -10,12 +10,12 @@ def say_hi(string):
     # The second character must be the letter I or i
     # The third character must be a single space (i.e. \s)
     # The fourth character must NOT be the letter D or d
-    match = re.match(r'^[Hh][Ii]\s[^Dd]', string)
+    match = re.match(r"^[Hh][Ii]\s[^Dd]", string)
     if bool(match):
         print(string)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     while n > 0:
         string = input()

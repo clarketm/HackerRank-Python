@@ -5,7 +5,7 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N, M = list(map(int, input().split()))
 
     a = numpy.array([input().split() for _ in range(N)], dtype=int)
@@ -16,4 +16,4 @@ if __name__ == '__main__':
     print(a * b)
     print(a // b)
     print(a % b)
-    print(a**b)
+    print(a ** b)

@@ -31,7 +31,7 @@ def find_lowest(student_index=0, is_print=False):
     return student_index
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
 
     for _ in range(N):

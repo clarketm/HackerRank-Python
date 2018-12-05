@@ -3,7 +3,7 @@
 # Any or All
 # https://www.hackerrank.com/challenges/any-or-all/problem
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
     array = list(map(int, input().split()))
 

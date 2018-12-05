@@ -3,7 +3,7 @@
 # Set Mutations
 # https://www.hackerrank.com/challenges/py-set-mutations/problem
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     A = int(input())
     s0 = {int(i) for i in input().split()}
     N = int(input())

@@ -9,7 +9,7 @@ def detect_html_attributes(fragments):
     tags = {}
 
     for fragment in fragments:
-        matches_tags = re.findall(r'<(\w+)(.*?)>', fragment)
+        matches_tags = re.findall(r"<(\w+)(.*?)>", fragment)
         for match in matches_tags:
             tag = match[0]
             attrs = match[1]
@@ -18,10 +18,10 @@ def detect_html_attributes(fragments):
             tags.setdefault(tag, []).extend(attrs)
 
     for tag in sorted(tags.keys()):
-        print("{}:{}".format(tag, ','.join(sorted(set(tags[tag])))))
+        print("{}:{}".format(tag, ",".join(sorted(set(tags[tag])))))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     fragments = []
     while n > 0:

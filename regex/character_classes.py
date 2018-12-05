@@ -13,7 +13,7 @@ def match_specific_characters(string):
     # Fourth character: 3, 0 , A or a
     # Fifth character: x, s or u
     # Sixth character: . or ,
-    match = re.match(r'^[123][012][0sx][03Aa][sux][.,]$', string)
+    match = re.match(r"^[123][012][0sx][03Aa][sux][.,]$", string)
     print(str(bool(match)).lower())
 
 
@@ -27,7 +27,7 @@ def exclude_specific_characters(string):
     # Fourth character should NOT be a whitespace character ( \r, \n, \t, \f or <space> ).
     # Fifth character should NOT be a uppercase vowel (AEIOU).
     # Sixth character should NOT be a . or , symbol.
-    match = re.match(r'^[\D][^aeiou][^bcDF][\S][^AEIOU][^.,]$', string)
+    match = re.match(r"^[\D][^aeiou][^bcDF][\S][^AEIOU][^.,]$", string)
     print(str(bool(match)).lower())
 
 
@@ -40,11 +40,11 @@ def match_character_ranges(string):
     # The third character must NOT be a lowercase English alphabetic character.
     # The fourth character must NOT be an uppercase English alphabetic character.
     # The fifth character must be an uppercase English alphabetic character.
-    match = re.match(r'^[a-z][1-9][^a-z][^A-Z][A-Z].*$', string)
+    match = re.match(r"^[a-z][1-9][^a-z][^A-Z][A-Z].*$", string)
     print(str(bool(match)).lower())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     string = input()
     # match_specific_characters(string)
     # exclude_specific_characters(string)

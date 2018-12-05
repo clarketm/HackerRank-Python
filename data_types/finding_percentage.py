@@ -3,7 +3,7 @@
 # Finding the percentage
 # https://www.hackerrank.com/challenges/finding-the-percentage/problem
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
     student_average_map = {}
 

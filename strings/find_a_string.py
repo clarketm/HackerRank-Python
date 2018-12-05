@@ -16,7 +16,7 @@ def count_substring(string, substring):
 
     # Using `while` optimized
     while i < len(string) - (length - 1):
-        if substring == string[i:i + length]:
+        if substring == string[i : i + length]:
             count += 1
         i += 1
 
@@ -33,7 +33,7 @@ def count_substring(string, substring):
     return count
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     string = input()
     substring = input()
     print(count_substring(string, substring))

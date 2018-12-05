@@ -39,7 +39,7 @@
 # Using a simple, optimized algorithm
 def minion_game(string):
     length = len(string)
-    vowels = ('A', 'E', 'I', 'O', 'U')
+    vowels = ("A", "E", "I", "O", "U")
 
     stuart_words_count = 0
     kevin_words_count = 0
@@ -51,13 +51,13 @@ def minion_game(string):
             kevin_words_count += length - i
 
     if stuart_words_count > kevin_words_count:
-        print('Stuart', stuart_words_count)
+        print("Stuart", stuart_words_count)
     elif kevin_words_count > stuart_words_count:
-        print('Kevin', kevin_words_count)
+        print("Kevin", kevin_words_count)
     else:
-        print('Draw')
+        print("Draw")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = input()
     minion_game(s)

@@ -28,7 +28,7 @@ class Complex(object):
         return Complex(_complex.real, _complex.imag)
 
     def mod(self):
-        _complex = complex(math.sqrt(self.real**2 + self.imaginary**2))
+        _complex = complex(math.sqrt(self.real ** 2 + self.imaginary ** 2))
         return Complex(_complex.real, _complex.imag)
 
     def __str__(self):
@@ -46,9 +46,9 @@ class Complex(object):
         return result
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     c = map(float, input().split())
     d = map(float, input().split())
     x = Complex(*c)
     y = Complex(*d)
-    print(*map(str, [x + y, x - y, x * y, x / y, x.mod(), y.mod()]), sep='\n')
+    print(*map(str, [x + y, x - y, x * y, x / y, x.mod(), y.mod()]), sep="\n")

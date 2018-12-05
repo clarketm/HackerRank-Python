@@ -5,7 +5,7 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N, M, P = map(int, input().split())
 
     # Solution 1: Loop

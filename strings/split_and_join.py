@@ -12,9 +12,9 @@ def split_and_join(line):
     # return line.replace(' ', '-')
 
     # Using `split` and `join`
-    return '-'.join(line.split(' '))
+    return "-".join(line.split(" "))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     line = input()
     print(split_and_join(line))

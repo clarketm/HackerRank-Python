@@ -7,12 +7,12 @@
 # Using a functional, `pythonic` approach
 def create_mat(N, M):
     for i in range(1, N, 2):
-        print((i * '.|.').center(M, '-'))
+        print((i * ".|.").center(M, "-"))
 
-    print('WELCOME'.center(M, '-'))
+    print("WELCOME".center(M, "-"))
 
     for i in range(N - 2, -1, -2):
-        print((i * '.|.').center(M, '-'))
+        print((i * ".|.").center(M, "-"))
 
 
 # Using an iterative, `unpythonic` approach
@@ -46,6 +46,6 @@ def create_mat(N, M):
 #         print()
 #         count -= 1
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N, M = map(int, input().split())
     create_mat(N, M)

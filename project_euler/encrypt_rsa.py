@@ -16,7 +16,7 @@ for e in range(3, phi, 2):
     elif num_unconcealed == min:
         sum_e += e
 
-print(sum_e % ((10**9) + 7))
+print(sum_e % ((10 ** 9) + 7))
 
 # s, e = 0, 3
 # phi = (p - 1) * (q - 1)

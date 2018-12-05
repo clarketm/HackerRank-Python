@@ -28,7 +28,7 @@
 
 # Using `list comprehension` with `upper` method
 def capitalize(string):
-    return ' '.join([w[:1].upper() + w[1:] for w in string.split(' ')])
+    return " ".join([w[:1].upper() + w[1:] for w in string.split(" ")])
 
 
 # Using `title` method
@@ -36,7 +36,7 @@ def capitalize(string):
 # def capitalize(string):
 #     return string.title()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     string = input()
     capitalized_string = capitalize(string)
     print(capitalized_string)

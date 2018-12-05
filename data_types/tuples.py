@@ -9,7 +9,7 @@ def main(ints):
     print(_hash)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     ints = map(int, input().split())
     main(ints)

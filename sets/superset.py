@@ -14,10 +14,15 @@
 
 # Using `functional` approach
 def is_strict_superset(A, n):
-    return all([True if A.issuperset({int(item) for item in input().split()}) else False for _ in range(n)])
+    return all(
+        [
+            True if A.issuperset({int(item) for item in input().split()}) else False
+            for _ in range(n)
+        ]
+    )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     A = {int(item) for item in input().split()}
     n = int(input())
     print(is_strict_superset(A, n))

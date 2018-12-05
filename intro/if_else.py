@@ -19,6 +19,6 @@ def if_else(n):
             print("Not Weird")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     if_else(n)

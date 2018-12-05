@@ -3,7 +3,7 @@
 # Zipped!
 # https://www.hackerrank.com/challenges/zipped/problem
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N, X = map(int, input().split())
     grades_by_subject = []
 

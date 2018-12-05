@@ -5,7 +5,7 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     arr = numpy.array(list(map(float, input().split())))
     numpy.set_printoptions(sign=" ")
     print(numpy.floor(arr))

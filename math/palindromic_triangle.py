@@ -3,7 +3,7 @@
 # Triangle Quest 2
 # https://www.hackerrank.com/challenges/triangle-quest-2/problem
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
 
     # Using `list concatenation` and `one sequence`
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     for i in range(1, N + 1):
         prefix = list(map(str, range(1, i)))
         suffix = list(map(str, range(i, 0, -1)))
-        print(''.join(prefix + suffix))
+        print("".join(prefix + suffix))
 
     # Using `iterable unpacking` and `one sequence`
     # for i in range(1, N + 1):

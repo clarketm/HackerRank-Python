@@ -5,7 +5,7 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N, M = list(map(int, input().split()))
     numpy.set_printoptions(sign=" ")
     result = numpy.eye(N, M)

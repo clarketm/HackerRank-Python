@@ -5,7 +5,7 @@
 
 
 def gen_logo(thickness):
-    c = 'H'
+    c = "H"
 
     # Top Cone
     for i in range(thickness):
@@ -13,7 +13,10 @@ def gen_logo(thickness):
 
     # Top Pillars
     for i in range(thickness + 1):
-        print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6))
+        print(
+            (c * thickness).center(thickness * 2)
+            + (c * thickness).center(thickness * 6)
+        )
 
     # Middle Belt
     for i in range((thickness + 1) // 2):
@@ -21,13 +24,22 @@ def gen_logo(thickness):
 
     # Bottom Pillars
     for i in range(thickness + 1):
-        print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6))
+        print(
+            (c * thickness).center(thickness * 2)
+            + (c * thickness).center(thickness * 6)
+        )
 
     # Bottom Cone
     for i in range(thickness):
-        print(((c * (thickness - i - 1)).rjust(thickness) + c + (c * (thickness - i - 1)).ljust(thickness)).rjust(thickness * 6))
+        print(
+            (
+                (c * (thickness - i - 1)).rjust(thickness)
+                + c
+                + (c * (thickness - i - 1)).ljust(thickness)
+            ).rjust(thickness * 6)
+        )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     thickness = int(input())
     gen_logo(thickness)

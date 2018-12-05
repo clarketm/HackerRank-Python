@@ -22,8 +22,8 @@ def swap_case(s):
         else:
             new_s.append(c)
 
-    return ''.join(new_s)
+    return "".join(new_s)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(swap_case(input()))

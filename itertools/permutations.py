@@ -5,7 +5,7 @@
 
 from itertools import permutations
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     S, k = input().split()
 
-    print(*sorted([''.join(p) for p in permutations(S, int(k))]), sep='\n')
+    print(*sorted(["".join(p) for p in permutations(S, int(k))]), sep="\n")

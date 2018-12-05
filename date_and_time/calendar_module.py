@@ -5,7 +5,7 @@
 
 import calendar
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     month, day, year = map(int, input().split())
 
     dow = calendar.day_name[calendar.weekday(year, month, day)]

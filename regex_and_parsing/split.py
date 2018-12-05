@@ -5,7 +5,7 @@
 
 import re
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     num = input()
-    segments = filter(None, re.split(r'[.,]', num))
-    print(*segments, sep='\n')
+    segments = filter(None, re.split(r"[.,]", num))
+    print(*segments, sep="\n")

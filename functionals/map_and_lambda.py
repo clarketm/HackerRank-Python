@@ -5,7 +5,7 @@
 
 
 def cube(x):
-    return x**3
+    return x ** 3
 
 
 def fibonacci(n):
@@ -28,6 +28,6 @@ def fibonacci(n):
 
 #     return list(map(cube, seq))
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     print(fibonacci(n))

@@ -10,12 +10,12 @@ def validate(id):
     # Each char is an uppercase letter
     # Each digit lies between 0 and 9
     # The length of the PAN number is always 10
-    match = re.match(r'^[A-Z]{5}\d{4}[A-Z]$', id)
-    result = 'YES' if bool(match) else 'NO'
+    match = re.match(r"^[A-Z]{5}\d{4}[A-Z]$", id)
+    result = "YES" if bool(match) else "NO"
     print(result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     while n > 0:
         id = input()

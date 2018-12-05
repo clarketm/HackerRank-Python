@@ -9,7 +9,7 @@
 
 from collections import defaultdict
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n, m = map(int, input().split())
 
     A = []
@@ -22,7 +22,7 @@ if __name__ == '__main__':
         B[key].append(index + 1)
 
     for _ in range(m):
-        print(' '.join(str(index) for index in B.get(input(), [-1])))
+        print(" ".join(str(index) for index in B.get(input(), [-1])))
         # try:
         #     print(' '.join(str(index) for index in B.get(input())))
         # except:

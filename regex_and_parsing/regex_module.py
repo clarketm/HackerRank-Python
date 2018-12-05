@@ -5,9 +5,9 @@
 
 import re
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
 
     for _ in range(n):
-        match = re.match(r'^[+\-.]?\d*\.\d+$', input())
+        match = re.match(r"^[+\-.]?\d*\.\d+$", input())
         print(bool(match))

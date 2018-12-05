@@ -5,8 +5,8 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     dims = list(map(int, input().split()))
     zeroes = numpy.zeros(dims, dtype=numpy.int)
     ones = numpy.ones(dims, dtype=numpy.int)
-    print(zeroes, ones, sep='\n')
+    print(zeroes, ones, sep="\n")

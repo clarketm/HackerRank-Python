@@ -48,6 +48,6 @@ def validate_string(s: str) -> None:
     print(any(c.isupper() for c in s))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = input()
     validate_string(s)

@@ -39,7 +39,7 @@ def is_stackable(quantity, cubes):
         right = cubes[right_ptr]
 
         if (prev and cur) and (cur > prev):
-            return 'No'
+            return "No"
         elif left >= right:
             prev, cur = cur, left
             left_ptr += 1
@@ -47,10 +47,10 @@ def is_stackable(quantity, cubes):
             prev, cur = cur, right
             right_ptr -= 1
 
-    return 'Yes'
+    return "Yes"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
 
     for _ in range(n):

@@ -5,7 +5,7 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N, M = map(int, input().split())
     # arr = numpy.array([list(map(int, input().split())) for _ in range(N)])
     arr = numpy.array([input().split() for _ in range(N)], dtype=int)

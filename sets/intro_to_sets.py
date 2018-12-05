@@ -9,7 +9,7 @@ def average(heights):
     return sum(heights) / len(heights)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
     heights = list(map(int, input().split()))
     print(average(heights))

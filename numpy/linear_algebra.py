@@ -5,8 +5,8 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     N = int(input())
     arr = numpy.array([input().split() for _ in range(N)], dtype=float)
-    numpy.set_printoptions(legacy='1.13')
+    numpy.set_printoptions(legacy="1.13")
     print(numpy.linalg.det(arr))

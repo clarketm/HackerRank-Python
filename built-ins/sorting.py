@@ -9,12 +9,21 @@
 
 # `lower priority` => `higher priority`
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     S = input()
-    S = 'Sorting1234'
-    S_sorted = sorted(S, key=lambda x: (x.isdigit(), x.isdigit() and int(x) % 2 == 0, x.isupper(), x.islower(), x))
+    S = "Sorting1234"
+    S_sorted = sorted(
+        S,
+        key=lambda x: (
+            x.isdigit(),
+            x.isdigit() and int(x) % 2 == 0,
+            x.isupper(),
+            x.islower(),
+            x,
+        ),
+    )
 
-    print(''.join(S_sorted))
+    print("".join(S_sorted))
 
     # One-liner
     # print(*sorted(input(), key=lambda x: (x.isdigit(), x.isdigit() and int(x) % 2 == 0, x.isupper(), x.islower(), x)), sep='')

@@ -17,7 +17,7 @@
 
 # Using a `verbose` approach
 def print_rangoli(size):
-    start = ord('a')
+    start = ord("a")
     end = start + (size - 1)
 
     # width = ((size * 2) - 1) + ((size - 1) * 2)
@@ -27,14 +27,14 @@ def print_rangoli(size):
     for i in range(size):
         chars = [chr(c) for c in range(end, start - 1, -1)]
         l = chars[:i] + [chars[i]] + list(reversed(chars[:i]))
-        print('-'.join(l).center(width, '-'))
+        print("-".join(l).center(width, "-"))
 
     for i in reversed(range(size - 1)):
         chars = [chr(c) for c in range(end, start - 1, -1)]
         l = chars[:i] + [chars[i]] + list(reversed(chars[:i]))
-        print('-'.join(l).center(width, '-'))
+        print("-".join(l).center(width, "-"))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     print_rangoli(n)

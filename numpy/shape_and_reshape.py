@@ -5,7 +5,7 @@
 
 import numpy
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     arr = list(map(int, input().split()))
     result = numpy.array(arr)
     result.shape = (3, 3)
